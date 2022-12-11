@@ -1,0 +1,922 @@
+{
+	"info": {
+		"_postman_id": "e6da6349-60b1-4fe3-b544-f7e5551afed5",
+		"name": "mw",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4075102"
+	},
+	"item": [
+		{
+			"name": "Posts",
+			"item": [
+				{
+					"name": "/api/posts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2RmNzBlODQxOTY0MmM2MzZkNTkiLCJpYXQiOjE2NzA2ODc5MDF9.XTFOOXhqyg16HsvYscA51wT41SduqLYbG_MO2f3KkV8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/posts",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/posts/{postId}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/posts/63948cb96cccc08a8253b63d",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"posts",
+								"63948cb96cccc08a8253b63d"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/posts/{postId}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/posts/63949229e26b5cf14f567789",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"posts",
+								"63949229e26b5cf14f567789"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/posts",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2ODY0MTB9.qFjf84P_8Pd-1xK-fHR_4o3fpEvdmF_v1aKlM_6PBCI",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": \"6393cca32dcbe4dd272673c1\",\n    \"title\": \"Where can I get some Lorem?\",\n    \"article\": \"<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/api/posts",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzY1YjI2MWJhYjhjZWM0ZTU0NDRhNzMiLCJpYXQiOjE2Njc2MTAyMDh9.5OndU5vCtxzXRdRrVaEwnRGlHEdLh5cFrLrXjgE86js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/posts",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": \"6393cca32dcbe4dd272673c1\",\n    \"title\": \"Where can I get some Lorem Ipsom for free?\",\n    \"article\": \"<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p><p><a href='https://www.lipsum.com/'>www.lipsum.com</a></p>\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/api/posts/6394a799b12f5a1c5be60260",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"posts",
+								"6394a799b12f5a1c5be60260"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzY1YjI2MWJhYjhjZWM0ZTU0NDRhNzMiLCJpYXQiOjE2Njc2MTAyMDh9.5OndU5vCtxzXRdRrVaEwnRGlHEdLh5cFrLrXjgE86js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comments",
+			"item": [
+				{
+					"name": "/api/comments",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2RmNzBlODQxOTY0MmM2MzZkNTkiLCJpYXQiOjE2NzA2ODc5MDF9.XTFOOXhqyg16HsvYscA51wT41SduqLYbG_MO2f3KkV8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/comments/{commentId}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments/6394d3ef87c8b2baafcd91b2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments",
+								"6394d3ef87c8b2baafcd91b2"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/comments/post/{postId}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments/post/63948cb96cccc08a8253b63d",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments",
+								"post",
+								"63948cb96cccc08a8253b63d"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/comments/{commentId}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments/6394d19ed3ed7229187ec3c2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments",
+								"6394d19ed3ed7229187ec3c2"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/comments",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2ODY0MTB9.qFjf84P_8Pd-1xK-fHR_4o3fpEvdmF_v1aKlM_6PBCI",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": \"6393cdf70e8419642c636d59\",\n    \"post_id\": \"63948e3f965f577465e4eaac\",\n    \"comment_text\": \"Amazing post. Very helpful\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzY1YjI2MWJhYjhjZWM0ZTU0NDRhNzMiLCJpYXQiOjE2Njc2MTAyMDh9.5OndU5vCtxzXRdRrVaEwnRGlHEdLh5cFrLrXjgE86js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/posts",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": \"6393cdf70e8419642c636d59\",\n    \"post_id\": \"63948e3f965f577465e4eaac\",\n    \"comment_text\": \"Amazing post. Very helpful!\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments/6394d3ef87c8b2baafcd91b2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments",
+								"6394d3ef87c8b2baafcd91b2"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzY1YjI2MWJhYjhjZWM0ZTU0NDRhNzMiLCJpYXQiOjE2Njc2MTAyMDh9.5OndU5vCtxzXRdRrVaEwnRGlHEdLh5cFrLrXjgE86js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Likes",
+			"item": [
+				{
+					"name": "/api/likes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2RmNzBlODQxOTY0MmM2MzZkNTkiLCJpYXQiOjE2NzA2ODc5MDF9.XTFOOXhqyg16HsvYscA51wT41SduqLYbG_MO2f3KkV8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/likes/",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"likes",
+								""
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/likes/{likeId}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/likes/639538352507f6eb072aca0a",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"likes",
+								"639538352507f6eb072aca0a"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/likes/post/{postId}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/likes/post/63948e3f965f577465e4eaac",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"likes",
+								"post",
+								"63948e3f965f577465e4eaac"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/likes/user/{userId}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/likes/user/6393cdf70e8419642c636d59",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"likes",
+								"user",
+								"6393cdf70e8419642c636d59"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/likes/{likeId}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/likes/639538d02507f6eb072aca16",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"likes",
+								"639538d02507f6eb072aca16"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/likes",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2ODY0MTB9.qFjf84P_8Pd-1xK-fHR_4o3fpEvdmF_v1aKlM_6PBCI",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": \"6393cca32dcbe4dd272673c1\",\n    \"post_id\": \"6394eaf0d197f09641f97209\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/api/likes",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"likes"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzY1YjI2MWJhYjhjZWM0ZTU0NDRhNzMiLCJpYXQiOjE2Njc2MTAyMDh9.5OndU5vCtxzXRdRrVaEwnRGlHEdLh5cFrLrXjgE86js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/posts",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": \"6393cdf70e8419642c636d59\",\n    \"post_id\": \"63948e3f965f577465e4eaac\",\n    \"comment_text\": \"Amazing post. Very helpful!\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/api/comments/6394d3ef87c8b2baafcd91b2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comments",
+								"6394d3ef87c8b2baafcd91b2"
+							],
+							"query": [
+								{
+									"key": "auth-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzY1YjI2MWJhYjhjZWM0ZTU0NDRhNzMiLCJpYXQiOjE2Njc2MTAyMDh9.5OndU5vCtxzXRdRrVaEwnRGlHEdLh5cFrLrXjgE86js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Management",
+			"item": [
+				{
+					"name": "/api/user/registration",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_name\": \"john.snow\",\n    \"email\": \"john.snow@gmail.com\",\n    \"password\": \"drowssap\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/registration",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"registration"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users/{userId}",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2RmNzBlODQxOTY0MmM2MzZkNTkiLCJpYXQiOjE2NzA2ODc5MDF9.XTFOOXhqyg16HsvYscA51wT41SduqLYbG_MO2f3KkV8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_name\": \"john snow\",\n    \"email\": \"john.snow@gmail.com\",\n    \"password\": \"drowssap\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/users/6393cdf70e8419642c636d59",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"6393cdf70e8419642c636d59"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/user/auth",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "auth-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzkzY2NhMzJkY2JlNGRkMjcyNjczYzEiLCJpYXQiOjE2NzA2NzcyNjJ9.OkflcNrKGmaNjYnW-eAv5YuElViEXITmdLa9d6Ym-N0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"john.snow@gmail.com\",\n    \"password\": \"drowssap\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/user/auth",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"user",
+								"auth"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
