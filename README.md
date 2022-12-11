@@ -111,7 +111,7 @@ In order to interact with the MiniWall API, a user must meet the following prere
 
 
 #### API Request Format
-The List of API requests available can found in the ![Postman collection here](./miniwall.postman_collection.
+The List of API requests available can found in the ![Postman collection here](./miniwall.postman_collection).
 Generally, the format is as below:
 ```
 `http://localhost:80/{API_RESOURCE_ROUTE}`
