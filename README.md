@@ -41,6 +41,7 @@ npm install bcryptjs
 npm install jsonwebtoken
 ```
 
+
 ### Build the app into a Docker Impage
 ```
 $ docker image  build -t miniwall-app-image:1 .
